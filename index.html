@@ -17,9 +17,15 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function(){
+				
 					$(".menu-toggle").click(function(){
+						$("#fa").hide();
+						$("#close").show();
 						$("#nav").slideToggle();
+
 					})
+
+					
 				})
 			</script>
 	</head>
@@ -37,7 +43,7 @@
 					
 				</ul>
 			</nav>
-			<div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true" id="fa"></i></div>
+			<div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true" id="fa"></i><i class="fa fa-close" aria-hidden="true" id="close"></i> </div>
 		</header>
 		<section id="one">
 			<div class="banner">
