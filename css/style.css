@@ -103,24 +103,7 @@ body{
 #close{
 	display: none;
 }
-/*@media only screen and (max-width:500px){
-.banner{
-	width:100%;
-	float: :left;
-}
-.det{
-	width:100%;
-	float: :left;
-}
-.responsive {
-  width: 100%;
-  height: auto;
-}
-#one{
-	height:auto;
-}
-	
-}*/
+
 
 #two{
 	
@@ -374,6 +357,7 @@ footer{
    		text-align: center;
    		display: block;
    		border-bottom: 1px solid white;
+   		margin-left:0;
 	}	
 	#fa{
 		 font-size: 34px;
@@ -415,5 +399,7 @@ footer{
 	    color: #9f9a9a;
 	    margin: 3px 16px;
 	}
+
+	
 
 }
