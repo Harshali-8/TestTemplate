@@ -100,6 +100,9 @@ body{
 	padding: 11px 38px;
     margin: 0;
 }
+#close{
+	display: none;
+}
 /*@media only screen and (max-width:500px){
 .banner{
 	width:100%;
@@ -116,7 +119,6 @@ body{
 #one{
 	height:auto;
 }
-
 	
 }*/
 
@@ -178,7 +180,6 @@ footer{
 }
 .d1{
     margin: 14px 41px;
-
 }
 }
 	
@@ -283,6 +284,10 @@ footer{
 		 font-size: 34px;
    		 margin: 18px 13px;
 	}
+	#close{
+		 font-size: 34px;
+   		 margin: 18px 13px;
+	}
 	
 	.image_one{
 		height: auto;
@@ -374,7 +379,10 @@ footer{
 		 font-size: 34px;
    		 margin: 18px 13px;
 	}
-	
+	#close{
+		 font-size: 34px;
+   		 margin: 18px 13px;
+	}
 	.image_one{
 		height: auto;
 	}
@@ -409,7 +417,3 @@ footer{
 	}
 
 }
-
-					
-
-		
